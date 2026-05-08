@@ -1,36 +1,36 @@
 apiVersion: apps/v1
 kind: StatefulSet
 metadata:
-  name: preprocessing-worker
+  name: nraa-enduro-worker
   labels:
-    app: preprocessing-worker
+    app: nraa-enduro-worker
 spec:
-  serviceName: preprocessing-worker
+  serviceName: nraa-enduro-worker
   selector:
     matchLabels:
-      app: preprocessing-worker
+      app: nraa-enduro-worker
   template:
     metadata:
       labels:
-        app: preprocessing-worker
+        app: nraa-enduro-worker
     spec:
       serviceAccountName: sdps
       securityContext:
         fsGroup: 1000
       containers:
-        - name: preprocessing-worker
-          image: preprocessing-base-worker:dev
+        - name: nraa-enduro-worker
+          image: nraa-enduro-worker:dev
           volumeMounts:
             - name: config
-              mountPath: /home/preprocessing/.config
+              mountPath: /home/enduro/.config
               readOnly: true
             - name: shared-dir
-              mountPath: /home/preprocessing/shared
+              mountPath: /home/enduro/shared
           resources: {}
       volumes:
         - name: config
           secret:
-            secretName: preprocessing-secret
+            secretName: nraa-enduro-secret
         - name: shared-dir
           persistentVolumeClaim:
             claimName: preprocessing-pvc
