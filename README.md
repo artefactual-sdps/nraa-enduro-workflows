@@ -1,8 +1,7 @@
 # nraa-enduro-workflows
 
-Enduro child workflows template repository. This project is a basic
-preprocessing child workflow example and a template for new Enduro child
-workflow projects.
+**nraa-enduro-workflows** provides an Enduro preprocessing workflow for NRAA
+SIPs.
 
 - [Configuration](#configuration)
 - [Local environment](#local-environment)
@@ -75,7 +74,7 @@ including settings such as `TRIGGER_MODE_AUTO`.
 While we run the services inside a Kubernetes cluster we recommend installing Go
 and other tools locally to ease the development process.
 
-- [Go] (1.24+)
+- [Go] (1.26+)
 - GNU [Make] and [GCC]
 
 ## Makefile
