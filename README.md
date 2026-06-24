@@ -14,22 +14,24 @@ The required configuration for the default `nraa-enduro-worker`:
 ```toml
 debug = false
 verbosity = 0
-sharedPath = "/home/enduro/shared"
 
 [temporal]
 address = "temporal-frontend.enduro-sdps:7233"
 namespace = "default"
-taskQueue = "preprocessing"
-workflowName = "preprocessing"
 
 [worker]
+taskQueue = "nraa-enduro"
 maxConcurrentSessions = 1
+
+[preprocessing]
+workflowName = "preprocessing"
+sharedPath = "/home/enduro/shared"
 ```
 
 Optional BagIt bag configuration:
 
 ```toml
-[bagit]
+[preprocessing.bagCreate]
 checksumAlgorithm = "sha512"
 ```
 
@@ -41,7 +43,7 @@ The child workflow section for Enduro's configuration:
 [[childWorkflows]]
 type = "preprocessing"
 namespace = "default"
-taskQueue = "preprocessing"
+taskQueue = "nraa-enduro"
 workflowName = "preprocessing"
 extract = false
 sharedPath = "/home/enduro/preprocessing"

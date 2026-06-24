@@ -33,7 +33,7 @@ func (s *PreprocessingTestSuite) SetupTest(cfg config.Configuration) {
 
 	// Register activities.
 	s.env.RegisterActivityWithOptions(
-		bagcreate.New(cfg.Bagit).Execute,
+		bagcreate.New(cfg.Preprocessing.BagCreate).Execute,
 		temporalsdk_activity.RegisterOptions{Name: bagcreate.Name},
 	)
 
