@@ -1,4 +1,4 @@
-package workflow_test
+package workflows_test
 
 import (
 	"fmt"
@@ -14,7 +14,7 @@ import (
 	temporalsdk_worker "go.temporal.io/sdk/worker"
 
 	"github.com/artefactual-sdps/nraa-enduro-workflows/internal/config"
-	"github.com/artefactual-sdps/nraa-enduro-workflows/internal/workflow"
+	"github.com/artefactual-sdps/nraa-enduro-workflows/internal/workflows"
 )
 
 const sharedPath = "/shared/path/"
@@ -24,7 +24,7 @@ type PreprocessingTestSuite struct {
 	temporalsdk_testsuite.WorkflowTestSuite
 
 	env      *temporalsdk_testsuite.TestWorkflowEnvironment
-	workflow *workflow.PreprocessingWorkflow
+	workflow *workflows.PreprocessingWorkflow
 }
 
 func (s *PreprocessingTestSuite) SetupTest(cfg config.Configuration) {
@@ -37,7 +37,7 @@ func (s *PreprocessingTestSuite) SetupTest(cfg config.Configuration) {
 		temporalsdk_activity.RegisterOptions{Name: bagcreate.Name},
 	)
 
-	s.workflow = workflow.NewPreprocessingWorkflow(sharedPath)
+	s.workflow = workflows.NewPreprocessingWorkflow(sharedPath)
 }
 
 func (s *PreprocessingTestSuite) AfterTest(suiteName, testName string) {
