@@ -10,7 +10,7 @@
 				<name>metadata.xsd</name>
 				<originalName>metadata.xsd</originalName>
 				<checksumAlgorithm>MD5</checksumAlgorithm>
-				<checksum>627f1e1e819df185cc9d9788852cdacb</checksum>
+				<checksum>43b5f8556677eaaab9960e22c043adab</checksum>
 			</digitalObject>
 		</folder>
 		<folder>
@@ -27,47 +27,47 @@
 						<originalName>acceptance-invite.xml
 						</originalName>
 						<checksumAlgorithm>MD5</checksumAlgorithm>
-						<checksum>627f1e1e819df185cc9d9788852cdacb</checksum>
+						<checksum>d41d8cd98f00b204e9800998ecf8427e</checksum>
 					</digitalObject>
 					<digitalObject id="d000002">
 						<name>d000002.xml</name>
 						<originalName>working-paper-1.xml
 						</originalName>
 						<checksumAlgorithm>MD5</checksumAlgorithm>
-						<checksum>19193e7507e5cf23ac66c2e5f5b6f19b</checksum>
+						<checksum>d41d8cd98f00b204e9800998ecf8427e</checksum>
 					</digitalObject>
 					<digitalObject id="d000003">
 						<name>d000003.xml</name>
 						<originalName>working-paper-2.xml
 						</originalName>
 						<checksumAlgorithm>MD5</checksumAlgorithm>
-						<checksum>ef39859ca0be7cdcb79e0e88c36f2874</checksum>
+						<checksum>d41d8cd98f00b204e9800998ecf8427e</checksum>
 					</digitalObject>
 					<digitalObject id="d000004">
 						<name>d000004.dotx</name>
 						<originalName>working-paper-3.dotx
 						</originalName>
 						<checksumAlgorithm>MD5</checksumAlgorithm>
-						<checksum>5aac2b3009f6a0aa6a2a09d33e65977e</checksum>
+						<checksum>d41d8cd98f00b204e9800998ecf8427e</checksum>
 					</digitalObject>
 					<digitalObject id="d000005">
 						<name>d000005.pdf</name>
 						<originalName>reference-pub-1.pdf
 						</originalName>
 						<checksumAlgorithm>MD5</checksumAlgorithm>
-						<checksum>0b2e30459ae35e69cbf00d72dfaacf0a</checksum>
+						<checksum>d41d8cd98f00b204e9800998ecf8427e</checksum>
 					</digitalObject>
 					<digitalObject id="d000006">
 						<name>d000006.xml</name>
 						<originalName>reference-pub-2.xml</originalName>
 						<checksumAlgorithm>MD5</checksumAlgorithm>
-						<checksum>644a8f207d219108c45126b70406e809</checksum>
+						<checksum>d41d8cd98f00b204e9800998ecf8427e</checksum>
 					</digitalObject>
 					<digitalObject id="d000007">
 						<name>d000007.pdf</name>
 						<originalName>reference-pub-3.pdf</originalName>
 						<checksumAlgorithm>MD5</checksumAlgorithm>
-						<checksum>d8e6645f33c6f976ce0a1732ac65879e</checksum>
+						<checksum>d41d8cd98f00b204e9800998ecf8427e</checksum>
 					</digitalObject>
 				</folder>
 				<folder>
@@ -77,60 +77,60 @@
 						<name>d000008.pdf</name>
 						<originalName>minutes-1.pdf</originalName>
 						<checksumAlgorithm>MD5</checksumAlgorithm>
-						<checksum>5535b7dcafb6ce1e4b8254fd338e0587</checksum>
+						<checksum>d41d8cd98f00b204e9800998ecf8427e</checksum>
 					</digitalObject>
 					<digitalObject id="d000009">
 						<name>d000009.jpg</name>
 						<originalName>minutes-2.jpg</originalName>
 						<checksumAlgorithm>MD5</checksumAlgorithm>
-						<checksum>ae29b14087fb71be2f766c75e7a88188</checksum>
+						<checksum>d41d8cd98f00b204e9800998ecf8427e</checksum>
 					</digitalObject>
 					<digitalObject id="d000010">
 						<name>d000010.xml</name>
 						<originalName>minutes-3.xml</originalName>
 						<checksumAlgorithm>MD5</checksumAlgorithm>
-						<checksum>28b321df5546c21751e608df11d1c319</checksum>
+						<checksum>d41d8cd98f00b204e9800998ecf8427e</checksum>
 					</digitalObject>
 					<digitalObject id="d000011">
 						<name>d000011.pdf</name>
 						<originalName>tech-1.pdf</originalName>
 						<checksumAlgorithm>MD5</checksumAlgorithm>
-						<checksum>5120b65658967fa84033bfbcaba65d5d</checksum>
+						<checksum>d41d8cd98f00b204e9800998ecf8427e</checksum>
 					</digitalObject>
 					<digitalObject id="d000012">
 						<name>d000012.pdf</name>
 						<originalName>tech-2.pdf
 						</originalName>
 						<checksumAlgorithm>MD5</checksumAlgorithm>
-						<checksum>1c9997e85098410fa83460f55d678e07</checksum>
+						<checksum>d41d8cd98f00b204e9800998ecf8427e</checksum>
 					</digitalObject>
 					<digitalObject id="d000013">
 						<name>d000013.xml</name>
 						<originalName>tech-3.xml
 						</originalName>
 						<checksumAlgorithm>MD5</checksumAlgorithm>
-						<checksum>5015ec8d092fbf97fce88cd48b9cbf1b</checksum>
+						<checksum>d41d8cd98f00b204e9800998ecf8427e</checksum>
 					</digitalObject>
 					<digitalObject id="d000014">
 						<name>d000014.pdf</name>
 						<originalName>attend-1.pdf
 						</originalName>
 						<checksumAlgorithm>MD5</checksumAlgorithm>
-						<checksum>2ab8ada539c6480c8de71750a1eff978</checksum>
+						<checksum>d41d8cd98f00b204e9800998ecf8427e</checksum>
 					</digitalObject>
 					<digitalObject id="d000015">
 						<name>d000015.pdf</name>
 						<originalName>attend-2.pdf
 						</originalName>
 						<checksumAlgorithm>MD5</checksumAlgorithm>
-						<checksum>8e7fe7725a2faac2756ef1aff8768705</checksum>
+						<checksum>d41d8cd98f00b204e9800998ecf8427e</checksum>
 					</digitalObject>
 					<digitalObject id="d000016">
 						<name>d000016.pdf</name>
 						<originalName>attend-3.pdf
 						</originalName>
 						<checksumAlgorithm>MD5</checksumAlgorithm>
-						<checksum>7102f5ab40255db35714f414a004ac69</checksum>
+						<checksum>d41d8cd98f00b204e9800998ecf8427e</checksum>
 					</digitalObject>
 				</folder>
 			</folder>

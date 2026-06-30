@@ -8,7 +8,7 @@
                 <name>metadata.xsd</name>
                 <originalName>metadata.xsd</originalName>
                 <checksumAlgorithm>MD5</checksumAlgorithm>
-                <checksum>71741300bd1d07948743f0f0b7d158ae</checksum>
+                <checksum>0a093882301c2445528a1ea87747695d</checksum>
             </digitalObject>
         </folder>
         <folder>
@@ -21,25 +21,25 @@
                     <name>d000001.xls</name>
                     <originalName>d000001</originalName>
                     <checksumAlgorithm>MD5</checksumAlgorithm>
-                    <checksum>ee993d687c01f9e406275366062f316e</checksum>
+                    <checksum>019f6566416597ebb71494c4f94d431c</checksum>
                 </digitalObject>
                 <digitalObject id="d000002">
                     <name>d000002.png</name>
                     <originalName>d000002</originalName>
                     <checksumAlgorithm>MD5</checksumAlgorithm>
-                    <checksum>486575f63a11724c7920b5cc35394152</checksum>
+                    <checksum>f56f2a9495b14e06c8566f112a26e477</checksum>
                 </digitalObject>
                 <digitalObject id="d000003">
                     <name>d000003.pdf</name>
                     <originalName>d000003</originalName>
                     <checksumAlgorithm>MD5</checksumAlgorithm>
-                    <checksum>7182abeda90fc0b5e3b78649ead2631f</checksum>
+                    <checksum>99a3ee05cbfa5f877b32c7ef2991fa4a</checksum>
                 </digitalObject>
                 <digitalObject id="d000004">
                     <name>d000004.mp4</name>
                     <originalName>d000004</originalName>
                     <checksumAlgorithm>MD5</checksumAlgorithm>
-                    <checksum>c4b871e98ce563a529817d33d63d1063</checksum>
+                    <checksum>bb4411e055d94a0e9847725b6d0c3f6d</checksum>
                 </digitalObject>
             </folder>
         </folder>
