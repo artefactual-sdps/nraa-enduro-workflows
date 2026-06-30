@@ -20,7 +20,8 @@ define NEWLINE
 endef
 
 IGNORED_PACKAGES := \
-	github.com/artefactual-sdps/nraa-enduro-workflows/hack/%
+	github.com/artefactual-sdps/nraa-enduro-workflows/hack/% \
+	github.com/artefactual-sdps/nraa-enduro-workflows/internal/%/fake
 
 PACKAGES := $(shell go list ./...)
 TEST_PACKAGES := $(filter-out $(IGNORED_PACKAGES),$(PACKAGES))
@@ -41,6 +42,11 @@ fmt: # @HELP Format the project Go files with golangci-lint.
 fmt: FMT_FLAGS ?=
 fmt: tool-golangci-lint
 	golangci-lint fmt $(FMT_FLAGS)
+
+gen-mock: # @HELP Generate mocks.
+gen-mock: tool-mockgen
+	mockgen -typed -destination=./internal/fformat/fake/mock_identifier.go -package=fake github.com/artefactual-sdps/nraa-enduro-workflows/internal/fformat Identifier
+	mockgen -typed -destination=./internal/fvalidate/fake/mock_validator.go -package=fake github.com/artefactual-sdps/nraa-enduro-workflows/internal/fvalidate Validator
 
 gosec: # @HELP Run gosec security scanner.
 gosec: GOSEC_VERBOSITY ?= "-terse"

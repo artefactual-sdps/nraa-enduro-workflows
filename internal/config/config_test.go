@@ -4,10 +4,12 @@ import (
 	"testing"
 
 	"github.com/artefactual-sdps/temporal-activities/bagcreate"
+	"github.com/artefactual-sdps/temporal-activities/ffvalidate"
 	"gotest.tools/v3/assert"
 	"gotest.tools/v3/fs"
 
 	"github.com/artefactual-sdps/nraa-enduro-workflows/internal/config"
+	"github.com/artefactual-sdps/nraa-enduro-workflows/internal/fvalidate"
 )
 
 const testConfig = `# Config
@@ -24,6 +26,12 @@ workflowName = "preprocessing"
 sharedPath = "/home/enduro/shared"
 [preprocessing.bagCreate]
 checksumAlgorithm = "md5"
+[preprocessing.fileFormat]
+disallowlistPath = "/home/enduro/disallowed-file-formats.csv"
+[preprocessing.fileValidate.veraPDF]
+path = "/usr/bin/verapdf"
+[preprocessing.removeFiles]
+removeNames = ["thumbs.db", ".DS_Store"]
 `
 
 func TestConfig(t *testing.T) {
@@ -61,6 +69,48 @@ func TestConfig(t *testing.T) {
 					SharedPath:   "/home/enduro/shared",
 					BagCreate: bagcreate.Config{
 						ChecksumAlgorithm: "md5",
+					},
+					FileFormat: ffvalidate.Config{
+						DisallowlistPath: "/home/enduro/disallowed-file-formats.csv",
+					},
+					FileValidate: fvalidate.Config{
+						VeraPDF: fvalidate.VeraPDFConfig{
+							Path: "/usr/bin/verapdf",
+						},
+					},
+					RemoveFiles: config.RemoveFilesConfig{
+						RemoveNames: []string{"thumbs.db", ".DS_Store"},
+					},
+				},
+			},
+		},
+		{
+			name:       "Leaves hidden file remove names empty when not configured",
+			configFile: "nraa-enduro-worker.toml",
+			toml: `# Config
+[temporal]
+address = "host:port"
+[worker]
+taskQueue = "nraa-enduro"
+[preprocessing]
+workflowName = "preprocessing"
+sharedPath = "/home/enduro/shared"
+`,
+			wantFound: true,
+			wantCfg: config.Configuration{
+				Temporal: config.TemporalConfig{
+					Address:   "host:port",
+					Namespace: "default",
+				},
+				Worker: config.WorkerConfig{
+					MaxConcurrentSessions: 1,
+					TaskQueue:             "nraa-enduro",
+				},
+				Preprocessing: config.PreprocessingConfig{
+					WorkflowName: "preprocessing",
+					SharedPath:   "/home/enduro/shared",
+					BagCreate: bagcreate.Config{
+						ChecksumAlgorithm: "sha512",
 					},
 				},
 			},
@@ -109,6 +159,25 @@ checksumAlgorithm = "unknown"
 			wantFound: true,
 			wantErr: `invalid configuration
 Preprocessing.BagCreate: ChecksumAlgorithm: invalid value "unknown", must be one of (md5, sha1, sha256, sha512)`,
+		},
+		{
+			name:       "Errors when file format allowlist and disallowlist are both configured",
+			configFile: "nraa-enduro-worker.toml",
+			toml: `# Config
+[temporal]
+address = "host:port"
+[worker]
+taskQueue = "nraa-enduro"
+[preprocessing]
+workflowName = "preprocessing"
+sharedPath = "/home/enduro/shared"
+[preprocessing.fileFormat]
+allowlistPath = "/home/enduro/allowed-file-formats.csv"
+disallowlistPath = "/home/enduro/disallowed-file-formats.csv"
+`,
+			wantFound: true,
+			wantErr: `invalid configuration
+Preprocessing.FileFormat: AllowlistPath and DisallowlistPath cannot both be set`,
 		},
 		{
 			name:       "Errors when TOML is invalid",

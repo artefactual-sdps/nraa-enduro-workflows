@@ -4,12 +4,13 @@
 SIPs.
 
 - [Configuration](#configuration)
+- [Preprocessing workflow](#preprocessing-workflow)
 - [Local environment](#local-environment)
 - [Makefile](#makefile)
 
 ## Configuration
 
-The required configuration for the default `nraa-enduro-worker`:
+Example configuration for the default `nraa-enduro-worker`:
 
 ```toml
 debug = false
@@ -26,14 +27,28 @@ maxConcurrentSessions = 1
 [preprocessing]
 workflowName = "preprocessing"
 sharedPath = "/home/enduro/shared"
-```
 
-Optional BagIt bag configuration:
-
-```toml
 [preprocessing.bagCreate]
 checksumAlgorithm = "sha512"
+
+[preprocessing.removeFiles]
+removeNames = ["thumbs.db", ".DS_Store"]
+
+[preprocessing.fileFormat]
+# Configure at most one of these paths.
+# allowlistPath = "/home/enduro/config/allowed-file-formats.csv"
+# disallowlistPath = "/home/enduro/config/disallowed-file-formats.csv"
+
+[preprocessing.fileValidate.veraPDF]
+# path = "/usr/bin/verapdf"
 ```
+
+`removeNames` is used by the remove-files activity to delete unneeded files
+before validation. This deletion happens before structure, manifest, and
+checksum checks run. There is no default `removeNames` value. File
+format policy validation is optional; set either `allowlistPath` or
+`disallowlistPath`, never both. veraPDF validation is enabled only when
+`preprocessing.fileValidate.veraPDF.path` is set.
 
 ### Enduro
 
@@ -45,9 +60,19 @@ type = "preprocessing"
 namespace = "default"
 taskQueue = "nraa-enduro"
 workflowName = "preprocessing"
-extract = false
+extract = true
 sharedPath = "/home/enduro/preprocessing"
 ```
+
+## Preprocessing workflow
+
+The NRAA preprocessing workflow verifies the zipped SIP size, extracts the
+package, deletes configured unneeded files before validation, identifies the SIP,
+validates the NRAA structure and SIP name, verifies the metadata manifest and
+checksums, checks file format policy, validates file formats, validates
+`header/metadata.xml` against `header/metadata.xsd`, stops on collected content
+errors, then writes PREMIS XML, restructures the SIP, writes `identifiers.json`,
+and bags the SIP for Enduro.
 
 ## Local environment
 

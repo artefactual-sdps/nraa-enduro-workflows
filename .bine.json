@@ -31,6 +31,11 @@
       "version": "latest"
     },
     {
+      "name": "mockgen",
+      "go_package": "go.uber.org/mock/mockgen",
+      "version": "0.6.0"
+    },
+    {
       "name": "shfmt",
       "url": "https://github.com/mvdan/sh",
       "version": "3.13.0",

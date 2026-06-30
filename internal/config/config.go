@@ -7,7 +7,10 @@ import (
 	"strings"
 
 	"github.com/artefactual-sdps/temporal-activities/bagcreate"
+	"github.com/artefactual-sdps/temporal-activities/ffvalidate"
 	"github.com/spf13/viper"
+
+	"github.com/artefactual-sdps/nraa-enduro-workflows/internal/fvalidate"
 )
 
 type ConfigurationValidator interface {
@@ -65,6 +68,21 @@ type PreprocessingConfig struct {
 	// BagCreate configures the bagcreate activity used in the preprocessing
 	// workflow.
 	BagCreate bagcreate.Config
+
+	// FileFormat configures the file format allowlist/disallowlist activity.
+	FileFormat ffvalidate.Config
+
+	// FileValidate configures file format validators used in the preprocessing
+	// workflow.
+	FileValidate fvalidate.Config
+
+	// RemoveFiles configures hidden files removed after SIP extraction.
+	RemoveFiles RemoveFilesConfig
+}
+
+type RemoveFilesConfig struct {
+	// RemoveNames is the list of hidden filenames to remove before validation.
+	RemoveNames []string
 }
 
 func (c Configuration) Validate() error {
@@ -118,6 +136,9 @@ func (c PreprocessingConfig) Validate() error {
 
 	if err := c.BagCreate.Validate(); err != nil {
 		errs = errors.Join(errs, fmt.Errorf("Preprocessing.BagCreate: %v", err))
+	}
+	if err := c.FileFormat.Validate(); err != nil {
+		errs = errors.Join(errs, fmt.Errorf("Preprocessing.FileFormat: %v", err))
 	}
 
 	return errs
