@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://nraa.gov.om/sip/v1"
+		 schemaVersion="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="metadata.xsd">
+	<packageType>SIP</packageType>
+	<toc>
+		<folder>
+			<name>header</name>
+			<originalName>header</originalName>
+			<digitalObject id="d000017">
+				<name>metadata.xsd</name>
+				<originalName>metadata.xsd</originalName>
+				<checksumAlgorithm>MD5</checksumAlgorithm>
+				<checksum>627f1e1e819df185cc9d9788852cdacb</checksum>
+			</digitalObject>
+		</folder>
+		<folder>
+			<name>content</name>
+			<originalName>content</originalName>
+			<folder>
+				<name>f000001</name>
+				<originalName>f000001</originalName>
+				<folder>
+					<name>f000002</name>
+					<originalName>f000002</originalName>
+					<digitalObject id="d000001">
+						<name>d000001.xml</name>
+						<originalName>acceptance-invite.xml
+						</originalName>
+						<checksumAlgorithm>MD5</checksumAlgorithm>
+						<checksum>627f1e1e819df185cc9d9788852cdacb</checksum>
+					</digitalObject>
+					<digitalObject id="d000002">
+						<name>d000002.xml</name>
+						<originalName>working-paper-1.xml
+						</originalName>
+						<checksumAlgorithm>MD5</checksumAlgorithm>
+						<checksum>19193e7507e5cf23ac66c2e5f5b6f19b</checksum>
+					</digitalObject>
+					<digitalObject id="d000003">
+						<name>d000003.xml</name>
+						<originalName>working-paper-2.xml
+						</originalName>
+						<checksumAlgorithm>MD5</checksumAlgorithm>
+						<checksum>ef39859ca0be7cdcb79e0e88c36f2874</checksum>
+					</digitalObject>
+					<digitalObject id="d000004">
+						<name>d000004.dotx</name>
+						<originalName>working-paper-3.dotx
+						</originalName>
+						<checksumAlgorithm>MD5</checksumAlgorithm>
+						<checksum>5aac2b3009f6a0aa6a2a09d33e65977e</checksum>
+					</digitalObject>
+					<digitalObject id="d000005">
+						<name>d000005.pdf</name>
+						<originalName>reference-pub-1.pdf
+						</originalName>
+						<checksumAlgorithm>MD5</checksumAlgorithm>
+						<checksum>0b2e30459ae35e69cbf00d72dfaacf0a</checksum>
+					</digitalObject>
+					<digitalObject id="d000006">
+						<name>d000006.xml</name>
+						<originalName>reference-pub-2.xml</originalName>
+						<checksumAlgorithm>MD5</checksumAlgorithm>
+						<checksum>644a8f207d219108c45126b70406e809</checksum>
+					</digitalObject>
+					<digitalObject id="d000007">
+						<name>d000007.pdf</name>
+						<originalName>reference-pub-3.pdf</originalName>
+						<checksumAlgorithm>MD5</checksumAlgorithm>
+						<checksum>d8e6645f33c6f976ce0a1732ac65879e</checksum>
+					</digitalObject>
+				</folder>
+				<folder>
+					<name>f000003</name>
+					<originalName>f000003</originalName>
+					<digitalObject id="d000008">
+						<name>d000008.pdf</name>
+						<originalName>minutes-1.pdf</originalName>
+						<checksumAlgorithm>MD5</checksumAlgorithm>
+						<checksum>5535b7dcafb6ce1e4b8254fd338e0587</checksum>
+					</digitalObject>
+					<digitalObject id="d000009">
+						<name>d000009.jpg</name>
+						<originalName>minutes-2.jpg</originalName>
+						<checksumAlgorithm>MD5</checksumAlgorithm>
+						<checksum>ae29b14087fb71be2f766c75e7a88188</checksum>
+					</digitalObject>
+					<digitalObject id="d000010">
+						<name>d000010.xml</name>
+						<originalName>minutes-3.xml</originalName>
+						<checksumAlgorithm>MD5</checksumAlgorithm>
+						<checksum>28b321df5546c21751e608df11d1c319</checksum>
+					</digitalObject>
+					<digitalObject id="d000011">
+						<name>d000011.pdf</name>
+						<originalName>tech-1.pdf</originalName>
+						<checksumAlgorithm>MD5</checksumAlgorithm>
+						<checksum>5120b65658967fa84033bfbcaba65d5d</checksum>
+					</digitalObject>
+					<digitalObject id="d000012">
+						<name>d000012.pdf</name>
+						<originalName>tech-2.pdf
+						</originalName>
+						<checksumAlgorithm>MD5</checksumAlgorithm>
+						<checksum>1c9997e85098410fa83460f55d678e07</checksum>
+					</digitalObject>
+					<digitalObject id="d000013">
+						<name>d000013.xml</name>
+						<originalName>tech-3.xml
+						</originalName>
+						<checksumAlgorithm>MD5</checksumAlgorithm>
+						<checksum>5015ec8d092fbf97fce88cd48b9cbf1b</checksum>
+					</digitalObject>
+					<digitalObject id="d000014">
+						<name>d000014.pdf</name>
+						<originalName>attend-1.pdf
+						</originalName>
+						<checksumAlgorithm>MD5</checksumAlgorithm>
+						<checksum>2ab8ada539c6480c8de71750a1eff978</checksum>
+					</digitalObject>
+					<digitalObject id="d000015">
+						<name>d000015.pdf</name>
+						<originalName>attend-2.pdf
+						</originalName>
+						<checksumAlgorithm>MD5</checksumAlgorithm>
+						<checksum>8e7fe7725a2faac2756ef1aff8768705</checksum>
+					</digitalObject>
+					<digitalObject id="d000016">
+						<name>d000016.pdf</name>
+						<originalName>attend-3.pdf
+						</originalName>
+						<checksumAlgorithm>MD5</checksumAlgorithm>
+						<checksum>7102f5ab40255db35714f414a004ac69</checksum>
+					</digitalObject>
+				</folder>
+			</folder>
+		</folder>
+	</toc>
+	<submission>
+		<submissionType>EDRMS</submissionType>
+		<submittingOrganisation>MOSA</submittingOrganisation>
+		<submissionNumber>MOSA-2016-1</submissionNumber>
+		<transferApprovalReference>NRAA-9999/2016.1</transferApprovalReference>
+		<creationTimePeriod>
+			<from>2016-01-01</from>
+			<until>2016-12-31</until>
+		</creationTimePeriod>
+		<protectionPeriodCategory>Article 27 of Records and Archives Law</protectionPeriodCategory>
+		<protectionPeriod>60</protectionPeriod>
+		<protectionPeriodArguments>Records related to investigations and statistics</protectionPeriodArguments>
+		<provenance>
+			<creatorName>MOSA</creatorName>
+			<systemName>CMS, V5.4.1</systemName>
+			<systemDescription>System acquired in 1990. Technology based on Microsoft .NET Platform </systemDescription>
+			<systemRelated>None</systemRelated>
+		</provenance>
+		<classificationSystem>
+			<name>MOSA-BCS-2011</name>
+			<classificationSystemVersion>1.0</classificationSystemVersion>
+			<classificationLevel id="c000001"
+				levelNumber="1000">
+				<title>General Administration</title>
+				<classificationLevel id="c000002"
+					levelNumber="1200">
+					<title>Office of the Head of Agency</title>
+					<classificationLevel id="c000003"
+						levelNumber="1230">
+						<title>Committees and Councils</title>
+						<classificationLevel id="c000004"
+							levelNumber="1234">
+							<title>Consultative Council Meeting</title>
+							<file id="f000001" fileNumber="1234/2016-16">
+								<title>Trade Pricing Council Meeting</title>
+								<creationTimePeriod>
+									<from>2016-01-01</from>
+									<until>2016-12-31</until>
+								</creationTimePeriod>
+								<securityLevel>U</securityLevel>
+								<organisationUnitResponsible>Office of the Chairman</organisationUnitResponsible>
+								<description>File for all the records related to the 1st Trade Pricing Council Meeting</description>
+								<retentionSeries>
+									<retentionSeriesNumber>4,3,2,1</retentionSeriesNumber>
+									<retentionSeriesTitle>Consultative Council Meeting Series</retentionSeriesTitle>
+								</retentionSeries>
+								<formOfAppearance>digital</formOfAppearance>
+								<fileVolume id="f000002" fileNumber="1234/2016-16V1" volumeNumber="1">
+									<creationTimePeriod>
+										<from>2016-01-01</from>
+										<until>2016-06-30</until>
+									</creationTimePeriod>
+									<dateClosed>2016-06-30</dateClosed>
+									<creator>Yahya Abdullah</creator>
+									<record id="r000001">
+										<title>Acceptance of Invitation to 1st Trade Pricing Council Meeting</title>
+										<recordNumber>1234/2016-16V1.1</recordNumber>
+										<recordType>Correspondence</recordType>
+										<dateRegistered>2016-01-01</dateRegistered>
+										<author>Yahya Abdullah</author>
+										<creator>Marya Al-Siyabi</creator>
+										<securityLevel>U</securityLevel>
+										<formOfAppearance>digital</formOfAppearance>
+										<digitalObjectRef>d000001</digitalObjectRef>
+										<additionalInfo>
+											<attribute name="sender_organization">Ministry of Finance</attribute>
+											<attribute name="date_sent">2016-01-01</attribute>
+										</additionalInfo>
+										<relationships>
+											<relationship type="RELATES TO" ref="r000005"/>
+											<relationship type="RELATES TO" ref="r000006"/>
+										</relationships>
+									</record>
+									<record id="r000002">
+										<title>Working Papers for 1st Meeting</title>
+										<recordNumber>1234/2016-16V1.2</recordNumber>
+										<recordType>Working Paper</recordType>
+										<dateRegistered>2016-03-01</dateRegistered>
+										<author>Yahya Abdullah</author>
+										<creator>Marya Al-Siyabi</creator>
+										<securityLevel>U</securityLevel>
+										<formOfAppearance>digital</formOfAppearance>
+										<digitalObjectRef>d000002</digitalObjectRef>
+										<digitalObjectRef>d000003</digitalObjectRef>
+										<digitalObjectRef>d000004</digitalObjectRef>
+									</record>
+									<record id="r000003">
+										<title>Reference Publications for 1st Meeting</title>
+										<recordNumber>1234/2016-16V1.3</recordNumber>
+										<recordType>Publication</recordType>
+										<dateRegistered>2016-06-30</dateRegistered>
+										<author>Yahya Abdullah</author>
+										<creator>Marya Al-Siyabi</creator>
+										<securityLevel>U</securityLevel>
+										<formOfAppearance>digital</formOfAppearance>
+										<digitalObjectRef>d000005</digitalObjectRef>
+										<digitalObjectRef>d000006</digitalObjectRef>
+										<digitalObjectRef>d000007</digitalObjectRef>
+									</record>
+								</fileVolume>
+								<fileVolume id="f000003" fileNumber="1234/2016-16V2" volumeNumber="2">
+									<creationTimePeriod>
+										<from>2016-06-30</from>
+										<until>2016-12-31</until>
+									</creationTimePeriod>
+									<dateClosed>2016-12-31</dateClosed>
+									<creator>Yahya Abdullah</creator>
+									<record id="r000004">
+										<title>Minutes of Meeting for 1st Trade Pricing Council Meeting</title>
+										<recordNumber>1234/2016-16V2.1</recordNumber>
+										<recordType>Minutes of Meeting</recordType>
+										<dateRegistered>2016-06-30</dateRegistered>
+										<author>Yahya Abdullah</author>
+										<creator>Marya Al-Siyabi</creator>
+										<securityLevel>U</securityLevel>
+										<formOfAppearance>digital</formOfAppearance>
+										<digitalObjectRef>d000008</digitalObjectRef>
+										<digitalObjectRef>d000009</digitalObjectRef>
+										<digitalObjectRef>d000010</digitalObjectRef>
+									</record>
+									<record id="r000005">
+										<title>Technical Papers on Trade Pricing Practices</title>
+										<recordNumber>1234/2016-16V2.2</recordNumber>
+										<recordType>Technical Paper</recordType>
+										<dateRegistered>2016-08-30</dateRegistered>
+										<author>Yahya Abdullah</author>
+										<creator>Marya Al-Siyabi</creator>
+										<securityLevel>U</securityLevel>
+										<formOfAppearance>digital</formOfAppearance>
+										<digitalObjectRef>d000011</digitalObjectRef>
+										<digitalObjectRef>d000012</digitalObjectRef>
+										<digitalObjectRef>d000013</digitalObjectRef>
+										<relationships>
+											<relationship type="RELATES TO" ref="r000001"/>
+										</relationships>
+									</record>
+									<record id="r000006">
+										<title>Attendance Sheet for 1st Trade Pricing Council Meeting</title>
+										<recordNumber>1234/2016-16V2.3</recordNumber>
+										<recordType>Attendance Sheet</recordType>
+										<dateRegistered>2016-12-31</dateRegistered>
+										<author>Yahya Abdullah</author>
+										<creator>Marya Al-Siyabi</creator>
+										<securityLevel>U</securityLevel>
+										<formOfAppearance>digital</formOfAppearance>
+										<digitalObjectRef>d000014</digitalObjectRef>
+										<digitalObjectRef>d000015</digitalObjectRef>
+										<digitalObjectRef>d000016</digitalObjectRef>
+                                        <relationships>
+                                            <relationship type="RELATES TO" ref="r000001"/>
+                                            <relationship type="COPY OF" ref="r000002"/>
+                                            <relationship type="SUPERCEDES" ref="r000002"/>
+                                        </relationships>
+									</record>
+								</fileVolume>
+							</file>
+						</classificationLevel>
+					</classificationLevel>
+				</classificationLevel>
+			</classificationLevel>
+		</classificationSystem>
+	</submission>
+</package>
