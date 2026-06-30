@@ -4,7 +4,7 @@
         <folder>
             <name>header</name>
             <originalName>header</originalName>
-            <digitalObject>
+            <digitalObject id="d000005">
                 <name>metadata.xsd</name>
                 <originalName>metadata.xsd</originalName>
                 <checksumAlgorithm>MD5</checksumAlgorithm>
@@ -47,11 +47,11 @@
     <submission>
         <submissionType>EDRMS</submissionType>
         <submittingOrganisation>TRATraining</submittingOrganisation>
-        <submissionNumber/>
-        <transferApprovalReference/>
+        <submissionNumber>NRAA-2026-001</submissionNumber>
+        <transferApprovalReference>NRAA-2026-001-TRA</transferApprovalReference>
         <creationTimePeriod>
-            <from/>
-            <untill/>
+            <from>2026-01-27</from>
+            <until>2026-01-29</until>
         </creationTimePeriod>
         <protectionPeriodCategory>Article 27 of Records and Archives Law</protectionPeriodCategory>
         <protectionPeriod>60</protectionPeriod>
@@ -63,126 +63,90 @@
             <systemRelated>Migrated from System XYZ v5.1 in 2009. Contains financial records transferred from the Mawrid v2.0 financial system 2014.</systemRelated>
         </provenance>
         <classificationSystem>
+            <name>NRAA GO LIVE 2023</name>
             <classificationSystemVersion>1.0</classificationSystemVersion>
             <classificationLevel id="c000001" levelNumber="NRAA GO LIVE 2023">
                 <title>NRAA GO LIVE 2023</title>
-            </classificationLevel>
-            <classificationLevel id="c000002" levelNumber="5000">
-                <title>الدعم الفني والمتابعة والمنظومة الإلكترونية</title>
-            </classificationLevel>
-            <classificationLevel id="c000003" levelNumber="5400">
-                <title>إدارة المستندات والوثائق االالكترونية</title>
-            </classificationLevel>
-            <classificationLevel id="c000004" levelNumber="5420">
-                <title>الاختبار والإجازة</title>
-            </classificationLevel>
-            <classificationLevel id="c000005" levelNumber="5423">
-                <title>فحص واعتماد مهنيي الوثائق</title>
-                <file fileNumber="5423/21/2025" id="f000001">
-                    <title>selective transfer hybrid secret 1</title>
-                    <creationTimePeriod>
-                        <from/>
-                        <untill/>
-                    </creationTimePeriod>
-                    <securityLevel>C</securityLevel>
-                    <organisationUnitResponsible>TRA Test OU</organisationUnitResponsible>
-                    <retentionSeriesNumber>1901</retentionSeriesNumber>
-                    <retentionSeriesTitle>selective 0</retentionSeriesTitle>
-                </file>
-            </classificationLevel>
-            <classificationLevel id="c000006" levelNumber="NRAA GO LIVE 2023">
-                <title>NRAA GO LIVE 2023</title>
-            </classificationLevel>
-            <classificationLevel id="c000007" levelNumber="5000">
-                <title>الدعم الفني والمتابعة والمنظومة الإلكترونية</title>
-            </classificationLevel>
-            <classificationLevel id="c000008" levelNumber="5400">
-                <title>إدارة المستندات والوثائق االالكترونية</title>
-            </classificationLevel>
-            <classificationLevel id="c000009" levelNumber="5410">
-                <title>المتابعة الدورية في مجال إدارة الوثائق الالكترونية</title>
-                <file fileNumber="5410/3/2025" id="f000002">
-                    <title>test the current file states</title>
-                    <creationTimePeriod>
-                        <from>2026-01-27</from>
-                        <untill>2026-01-27</untill>
-                    </creationTimePeriod>
-                    <securityLevel>U</securityLevel>
-                    <organisationUnitResponsible>TRA Test OU</organisationUnitResponsible>
-                    <retentionSeriesNumber>1906</retentionSeriesNumber>
-                    <retentionSeriesTitle>the current</retentionSeriesTitle>
-                    <record id="r000001">
-                        <title>Sample2</title>
-                        <recordNumber>5410/3/2025-1</recordNumber>
-                        <recordType/>
-                        <dateRegistered>2026-01-27</dateRegistered>
-                        <author>TRAtest1</author>
-                        <creator>TRAtest1</creator>
-                        <securityLevel>U</securityLevel>
-                        <formOfAppearance>Y</formOfAppearance>
-                        <digitalObjectRef>d000001</digitalObjectRef>
-                        <additionalInfo/>
-                    </record>
-                    <record id="r000002">
-                        <title>ايصال تسليم رسالة باليد</title>
-                        <recordNumber>5410/3/2025-2</recordNumber>
-                        <recordType/>
-                        <dateRegistered>2026-01-27</dateRegistered>
-                        <author>TRAtest1</author>
-                        <creator>TRAtest1</creator>
-                        <securityLevel>U</securityLevel>
-                        <formOfAppearance>Y</formOfAppearance>
-                        <digitalObjectRef>d000002</digitalObjectRef>
-                        <additionalInfo/>
-                    </record>
-                    <record id="r000003">
-                        <title>رسالة</title>
-                        <recordNumber>5410/3/2025-3</recordNumber>
-                        <recordType/>
-                        <dateRegistered>2026-01-27</dateRegistered>
-                        <author>TRAtest1</author>
-                        <creator>TRAtest1</creator>
-                        <securityLevel>U</securityLevel>
-                        <formOfAppearance>Y</formOfAppearance>
-                        <digitalObjectRef>d000003</digitalObjectRef>
-                        <additionalInfo/>
-                    </record>
-                    <record id="r000004">
-                        <title>(Clear cache) مسح ذاكرة التخزين المؤقت</title>
-                        <recordNumber>5410/3/2025-4</recordNumber>
-                        <recordType/>
-                        <dateRegistered>2026-01-27</dateRegistered>
-                        <author>TRAtest1</author>
-                        <creator>TRAtest1</creator>
-                        <securityLevel>U</securityLevel>
-                        <formOfAppearance>Y</formOfAppearance>
-                        <digitalObjectRef>d000004</digitalObjectRef>
-                        <additionalInfo/>
-                    </record>
-                </file>
-            </classificationLevel>
-            <classificationLevel id="c000010" levelNumber="NRAA GO LIVE 2023">
-                <title>NRAA GO LIVE 2023</title>
-            </classificationLevel>
-            <classificationLevel id="c000011" levelNumber="5000">
-                <title>الدعم الفني والمتابعة والمنظومة الإلكترونية</title>
-            </classificationLevel>
-            <classificationLevel id="c000012" levelNumber="5400">
-                <title>إدارة المستندات والوثائق االالكترونية</title>
-            </classificationLevel>
-            <classificationLevel id="c000013" levelNumber="5410">
-                <title>المتابعة الدورية في مجال إدارة الوثائق الالكترونية</title>
-                <file fileNumber="5410/6/2025" id="f000003">
-                    <title>f2</title>
-                    <creationTimePeriod>
-                        <from/>
-                        <untill/>
-                    </creationTimePeriod>
-                    <securityLevel>U</securityLevel>
-                    <organisationUnitResponsible>Newgen Test OU TRA</organisationUnitResponsible>
-                    <retentionSeriesNumber>1906</retentionSeriesNumber>
-                    <retentionSeriesTitle>the current</retentionSeriesTitle>
-                </file>
+                <classificationLevel id="c000002" levelNumber="5000">
+                    <title>الدعم الفني والمتابعة والمنظومة الإلكترونية</title>
+                    <classificationLevel id="c000003" levelNumber="5400">
+                        <title>إدارة المستندات والوثائق االالكترونية</title>
+                        <classificationLevel id="c000004" levelNumber="5410">
+                            <title>المتابعة الدورية في مجال إدارة الوثائق الالكترونية</title>
+                            <file fileNumber="5410/3/2025" id="f000001">
+                                <title>test the current file states</title>
+                                <creationTimePeriod>
+                                    <from>2026-01-27</from>
+                                    <until>2026-01-27</until>
+                                </creationTimePeriod>
+                                <securityLevel>U</securityLevel>
+                                <organisationUnitResponsible>TRA Test OU</organisationUnitResponsible>
+                                <description>test the current file states</description>
+                                <retentionSeries>
+                                    <retentionSeriesNumber>1906</retentionSeriesNumber>
+                                    <retentionSeriesTitle>the current</retentionSeriesTitle>
+                                </retentionSeries>
+                                <formOfAppearance>digital</formOfAppearance>
+                                <fileVolume id="f000002" fileNumber="5410/3/2025-V1" volumeNumber="1">
+                                    <creationTimePeriod>
+                                        <from>2026-01-27</from>
+                                        <until>2026-01-27</until>
+                                    </creationTimePeriod>
+                                    <dateClosed>2026-01-27</dateClosed>
+                                    <creator>TRAtest1</creator>
+                                    <record id="r000001">
+                                        <title>Sample2</title>
+                                        <recordNumber>5410/3/2025-1</recordNumber>
+                                        <recordType/>
+                                        <dateRegistered>2026-01-27</dateRegistered>
+                                        <author>TRAtest1</author>
+                                        <creator>TRAtest1</creator>
+                                        <securityLevel>U</securityLevel>
+                                        <formOfAppearance>digital</formOfAppearance>
+                                        <digitalObjectRef>d000001</digitalObjectRef>
+                                        <additionalInfo/>
+                                    </record>
+                                    <record id="r000002">
+                                        <title>ايصال تسليم رسالة باليد</title>
+                                        <recordNumber>5410/3/2025-2</recordNumber>
+                                        <recordType/>
+                                        <dateRegistered>2026-01-27</dateRegistered>
+                                        <author>TRAtest1</author>
+                                        <creator>TRAtest1</creator>
+                                        <securityLevel>U</securityLevel>
+                                        <formOfAppearance>digital</formOfAppearance>
+                                        <digitalObjectRef>d000002</digitalObjectRef>
+                                        <additionalInfo/>
+                                    </record>
+                                    <record id="r000003">
+                                        <title>رسالة</title>
+                                        <recordNumber>5410/3/2025-3</recordNumber>
+                                        <recordType/>
+                                        <dateRegistered>2026-01-27</dateRegistered>
+                                        <author>TRAtest1</author>
+                                        <creator>TRAtest1</creator>
+                                        <securityLevel>U</securityLevel>
+                                        <formOfAppearance>digital</formOfAppearance>
+                                        <digitalObjectRef>d000003</digitalObjectRef>
+                                        <additionalInfo/>
+                                    </record>
+                                    <record id="r000004">
+                                        <title>(Clear cache) مسح ذاكرة التخزين المؤقت</title>
+                                        <recordNumber>5410/3/2025-4</recordNumber>
+                                        <recordType/>
+                                        <dateRegistered>2026-01-27</dateRegistered>
+                                        <author>TRAtest1</author>
+                                        <creator>TRAtest1</creator>
+                                        <securityLevel>U</securityLevel>
+                                        <formOfAppearance>digital</formOfAppearance>
+                                        <digitalObjectRef>d000004</digitalObjectRef>
+                                        <additionalInfo/>
+                                    </record>
+                                </fileVolume>
+                            </file>
+                        </classificationLevel>
+                    </classificationLevel>
+                </classificationLevel>
             </classificationLevel>
         </classificationSystem>
     </submission>
