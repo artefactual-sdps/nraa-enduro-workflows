@@ -25,14 +25,19 @@ RUN --mount=type=cache,target=/go/pkg/mod \
 	-o /out/nraa-enduro-worker \
 	./cmd/worker
 
-FROM alpine:3.18.2 AS base
+FROM debian:12-slim AS base
 ARG USER_ID=1000
 ARG GROUP_ID=1000
-RUN addgroup -g ${GROUP_ID} -S enduro
-RUN adduser -u ${USER_ID} -S -D enduro enduro
+RUN groupadd --gid ${GROUP_ID} enduro && \
+	useradd --uid ${USER_ID} --gid enduro --create-home enduro
 USER enduro
-RUN mkdir /home/enduro/shared
 
 FROM base AS nraa-enduro-worker
-COPY --from=build-nraa-enduro-worker --link /out/nraa-enduro-worker /home/enduro/bin/nraa-enduro-worker
+USER root
+RUN apt-get update && apt-get install -y --no-install-recommends libxml2-utils && \
+	rm -rf /var/lib/apt/lists/* && \
+	mkdir --parents /home/enduro/shared && \
+	chown -R enduro:enduro /home/enduro
+USER enduro
+COPY --link --chown=enduro:enduro --from=build-nraa-enduro-worker /out/nraa-enduro-worker /home/enduro/bin/nraa-enduro-worker
 CMD ["/home/enduro/bin/nraa-enduro-worker"]
