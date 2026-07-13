@@ -1,6 +1,6 @@
 module github.com/artefactual-sdps/nraa-enduro-workflows
 
-go 1.26.4
+go 1.26.5
 
 require (
 	github.com/artefactual-sdps/enduro v0.29.0
