@@ -556,9 +556,9 @@ func (s *PreprocessingTestSuite) TestValidationErrorCollection() {
 				validationTask(
 					"Check for disallowed file formats",
 					"file format check has failed.",
-					"One or more file formats are not allowed:",
+					"One or more file formats are not allowed or can not be identified:",
 					"- file format \"fmt/11\" disallowed: \"f000001/d000001.png\"",
-					"Please review the SIP and remove or replace all disallowed file formats.",
+					"Please review the SIP and remove or replace all disallowed, empty, or unidentified files.",
 				),
 				validationTask(
 					"Validate SIP file formats",

@@ -311,9 +311,9 @@ func (w *PreprocessingWorkflow) Execute(
 			temporalsdk_workflow.Now(ctx),
 			task,
 			"file format check has failed.",
-			"One or more file formats are not allowed:",
+			"One or more file formats are not allowed or can not be identified:",
 			ul(ffvalidateResult.Failures),
-			"Please review the SIP and remove or replace all disallowed file formats.",
+			"Please review the SIP and remove or replace all disallowed, empty, or unidentified files.",
 		)
 	} else {
 		task.Succeed(temporalsdk_workflow.Now(ctx), "No disallowed file formats found")
