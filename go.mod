@@ -2,6 +2,8 @@ module github.com/artefactual-sdps/nraa-enduro-workflows
 
 go 1.26.6
 
+toolchain go1.26.10
+
 require (
 	github.com/artefactual-sdps/enduro v0.29.0
 	github.com/artefactual-sdps/temporal-activities v0.0.0-20260916160045-603f9642644f
