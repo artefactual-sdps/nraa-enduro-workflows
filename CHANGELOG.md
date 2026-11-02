@@ -8,13 +8,18 @@ requests.
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-11-02
+
+No functional changes.
+
 ## [0.1.0] - 2026-07-13
 
 ### Added
 
 - Preprocessing child workflow for O-SIP specification ([#1])
 
-[unreleased]: https://github.com/artefactual-sdps/nraa-enduro-workflows/compare/v0.1.0...HEAD
+[unreleased]: https://github.com/artefactual-sdps/nraa-enduro-workflows/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/artefactual-sdps/nraa-enduro-workflows/releases/tag/v0.1.1
 [0.1.0]: https://github.com/artefactual-sdps/nraa-enduro-workflows/releases/tag/v0.1.0
 [#1]: https://github.com/artefactual-sdps/nraa-enduro-workflows/issues/1
 [keep a changelog]: https://keepachangelog.com/en/1.1.0
